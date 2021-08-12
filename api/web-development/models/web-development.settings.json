@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "web_developments",
+  "info": {
+    "name": "web-development",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "price": {
+      "type": "integer",
+      "required": true
+    },
+    "type": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

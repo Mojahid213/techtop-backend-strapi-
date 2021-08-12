@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/graphic-designs",
+      "handler": "graphic-design.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/graphic-designs/count",
+      "handler": "graphic-design.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/graphic-designs/:id",
+      "handler": "graphic-design.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/graphic-designs",
+      "handler": "graphic-design.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/graphic-designs/:id",
+      "handler": "graphic-design.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/graphic-designs/:id",
+      "handler": "graphic-design.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

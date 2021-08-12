@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/digital-marketings",
+      "handler": "digital-marketing.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/digital-marketings/count",
+      "handler": "digital-marketing.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/digital-marketings/:id",
+      "handler": "digital-marketing.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/digital-marketings",
+      "handler": "digital-marketing.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/digital-marketings/:id",
+      "handler": "digital-marketing.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/digital-marketings/:id",
+      "handler": "digital-marketing.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

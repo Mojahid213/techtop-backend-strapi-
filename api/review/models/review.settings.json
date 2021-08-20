@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "reviews",
   "info": {
-    "name": "review"
+    "name": "review",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -12,10 +13,6 @@
   "pluginOptions": {},
   "attributes": {
     "name": {
-      "type": "string",
-      "required": true
-    },
-    "profession": {
       "type": "string",
       "required": true
     },
@@ -34,6 +31,17 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "company": {
+      "type": "string",
+      "required": false
+    },
+    "position": {
+      "type": "string",
+      "required": false
+    },
+    "avatar": {
+      "type": "string"
     }
   }
 }

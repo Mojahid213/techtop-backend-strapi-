@@ -24,19 +24,11 @@
       "type": "integer",
       "required": true
     },
-    "image": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "files",
-        "images",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": true,
-      "pluginOptions": {}
-    },
     "category": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
       "type": "string",
       "required": true
     }
